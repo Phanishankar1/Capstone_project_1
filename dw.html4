@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>iframes</title>
+</head>
+<body>
+	<iframe width="942" height="530" src="https://www.youtube.com/embed/FWswzxaCG3c" title="Why Technical Hub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<iframe height="500px" width="500px"  src="https://thecodemind.io/app/index.php"></iframe>
+ <marquee  direction="right" scrollamount="10"  ><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d630.785792175831!2d82.16747118714652!3d17.049844481618535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a378157248e2ea5%3A0xe6ef52213bd527c2!2sAmbati%20Swapna%20Soudha!5e0!3m2!1sen!2sin!4v1690004116249!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></marquee>
+</body>
+</html>
