@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display Object Keys</title>
+</head>
+<body>
+
+<script>
+  const person = {
+    name: 'John',
+    age: 30,
+    occupation: 'Engineer'
+  };
+
+  // Using document.write to display keys
+  document.write('<h1>Object Keys</h1>');
+  document.write('<ul>');
+  for (const key in person) {
+    document.write(person[key]+"</br>");
+    // document.write(${key});
+  }
+    // if (person.hasOwnProperty(key)) {
+    //   document.write(`<li>${key}</li>`);
+    // }
+  document.write('</ul>');
+</script>
+
+</body>
+</html>

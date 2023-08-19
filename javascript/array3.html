@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<table border="1px">
+	<tr>
+	<th>Name</th>
+	<th>age</th>
+	<th>email</th>
+</tr>
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+</tr>
+<!-- <tr>
+	<td></td>
+	<td></td>
+	<td></td>
+</tr> -->
+</table>
+<script>
+	var j=0;
+    var x=document.getElementsByTagName('td');
+	var n=[{
+		'0':'phani',
+		'1':19,
+		'2':'phanishankar@gmail.com',
+		},
+		{
+		'0':'sai',
+		'1':19,
+		'2':'sairamsiva@gmail.com',
+		},
+		{
+		'0':'ram',
+		'1':20,
+		'2':'ram123@gmail.com',
+		}];
+// 	for(var i=0;i<n.length;i++){
+// 	x[i*3].innerHTML=n[i].name;
+// 	x[i*3+1].innerHTML=n[i].age;
+// 	x[i*3+2].innerHTML=n[i].study;
+// }
+for(var b=0;b<3;b++)
+{
+for(var m=0;m<3;m++)
+{
+x[j].innerHTML=n[b][m];
+j++;
+}
+}
+// for(var k in n[1])
+// {
+// 	document.write(k);
+// }
+</script>
+</body>
+</html>

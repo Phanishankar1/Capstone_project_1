@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<table border="1px">
+	<tr>
+	<th>Name</th>
+	<th>age</th>
+	<th>email</th>
+</tr>
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+</tr>
+</table>
+<script>
+	var x=document.getElementsByTagName('td');
+var n=[{
+		'age':19,
+		'study':'engineering',
+		'place':'aditya'},
+		{
+		'age':19,
+		'study':'degree',
+		'place':'grace'},
+		{
+		'age':19,
+		'study':'degree',
+		'place':'grace'};
+		for(var i=0;i<n.length;i++)
+		{
+			 for(var k in n[i])
+				x[i].innerHTML=x[i][k];
+		}
+	</script>
+</body>
+</html>
